@@ -18,6 +18,7 @@ label{
     left: 20rem;
     border-radius: 10%;
     box-shadow: 5px 6px #808080 ;
+
 }
 
 
@@ -36,8 +37,8 @@ h2{
 label{
     padding:10px;
 }
----------------------
-@media screen and (max-width: 480px){
+
+@media (max-width: 480px){
         
     #covid-container{
     background-color: burlywood;
@@ -45,6 +46,8 @@ label{
     
     }
      .labels{
-        left: 20px;
+         position: relative;
+        left: 50px;
         }
     }
+    
