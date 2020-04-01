@@ -1,12 +1,12 @@
-@media only screen and (max-width:400px){
-    .labels{
-        position: relative;
-        left: 50px;
-    }
-}
+
+
+
 label{
     display: block;
 }
+
+
+
 .labels{
     width: 50%;
     height:auto ;
@@ -17,7 +17,10 @@ label{
     position: relative;
     left: 20rem;
     border-radius: 10%;
+    box-shadow: 5px 6px #808080 ;
 }
+
+
 #covid-container{
 background-color: aliceblue;
 padding: 5px;
@@ -25,10 +28,23 @@ text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 
 }
+
 h2{
+
     text-align: center;
 }
 label{
     padding:10px;
 }
+---------------------
+@media screen and (max-width: 480px){
+        
+    #covid-container{
+    background-color: burlywood;
+    padding: 2px;
     
+    }
+     .labels{
+        left: 20px;
+        }
+    }
