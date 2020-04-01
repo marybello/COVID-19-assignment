@@ -1,0 +1,20 @@
+#index-container{
+    background-color: aliceblue;
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+
+
+}
+#Index-form{
+
+    width: 40%;
+    height: 300px;
+    background-color: darkgray;
+    position: relative;
+    left:25rem;
+    padding: 10px;
+
+
+}

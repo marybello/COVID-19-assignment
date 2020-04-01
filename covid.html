@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/00b939ed86.js" crossorigin="anonymous"></script>
+
+    <style>
+label{
+    display: block;
+}
+.labels{
+    width: 50%;
+    height:auto ;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    position: relative;
+    left: 20rem;
+    border-radius: 10%;
+}
+#covid-container{
+background-color: aliceblue;
+padding: 5px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    text-align: center;
+}
+label{
+    padding:10px;
+}
+    </style>
+</head>
+<body>
+    <div id="covid-container">
+
+  <i class="fas fa-virus" style="font-size:120px;" >   </i> <h2>COVID-19 TEST</h2>
+
+     <form action="" onsubmit="validate();">
+         <div class="labels">
+            <img src="icons/coldd.png">
+         <label for="">Do you have cold?</label>
+         
+         <input type="radio" name="cold"   value="yes" checked required> Yes
+         <input type="radio" name="cold"  value="no" checked required> No
+         </div>
+        <div class="labels">
+            <img src="icons/coldd.png" alt="">
+         <label for="">Do you have cattarh?</label>
+         <input type="radio" name="cattarh"  value="yes" checked required> Yes
+         <input type="radio" name="cattarh"  value="no" checked required> No
+        </div>
+         
+         <div class="labels">
+             <i class="fas fa-head-side-cough" style="font-size: 100px;"></i>
+         <label for="">Do you have cough?</label>
+         <input type="radio" name="cough" value="yes" checked required> Yes
+         <input type="radio" name="cough"  value="no" checked required> No
+         </div>
+         <div class="labels">
+             <img src="icons/sorethroat.png" alt="">
+         <label for="">Do you have a sore throat?</label>
+         <input type="radio" name="throat" value="yes" checked required > Yes
+         <input type="radio" name="throat" value="no" checked required> No
+         </div>
+         <div class="labels">
+             <img src="icons/fever.png" alt="">
+         <label for="">Is your temperature above 37degrees?</label>
+         <input type="radio" name="fever"  value="yes" checked required> Yes
+         <input type="radio" name="fever"  value="no" checked required> No
+         </div>
+         <div class="labels">
+             <img src="icons/pain1.png" alt="">
+         <label for="">Is your body aching?</label>
+         <input type="radio" name="ache"  value="yes" checked required> Yes
+         <input type="radio" name="ache" value="no" checked required> No
+         </div>
+         <div class="labels">
+             <img src="icons/fatigue.jpg" alt="">
+         <label for="">Are you experiencing fatigue?</label>
+         <input type="radio" name="fatigue"  value="yes" checked required> Yes
+         <input type="radio" name="fatigue"  value="no" checked required> No
+         </div>
+         <div class="labels">
+             <img src="icons/breathe.png" alt="">
+         <label for="">Are you having a difficulty breathing?</label>
+         <input type="radio" name="breath"  value="yes" checked required> Yes
+         <input type="radio" name="breath"  value="no" checked required> No
+         </div>
+         <div class="labels">
+             <i class="fas fa-plane" style="font-size: 100px;"></i>
+         <label for="">Have you travelled recently during the past 14 days?</label>
+         <input type="radio" name="travel"  value="yes" checked required> Yes
+         <input type="radio" name="travel" value="no" checked required> No
+         </div>
+         <div class="labels">
+             <img src="icons/history_infected.png" alt="">
+         <label for="">Have you met with someone who has a travel history to a COVID-19 infected area?</label>
+         <input type="radio" name="infected"  value="yes" checked required> Yes
+         <input type="radio" name="infected"  value="no" checked required> No
+         </div>
+         <div class="labels">
+             <i class="fas fa-user-nurse" style="font-size: 100px;"></i>
+         <label for="">Do you have a direct contact with a positive COVID-19 patient? </label>
+         <input type="radio" name="contact"  value="yes" checked required> Yes
+         <input type="radio" name="contact"  value="no" checked required> No
+         </div>
+         <button style="width: 100px; margin-left: 10px; height: 30px; background-color: rgb(0, 238, 255);" type="submit" onclick="validate();">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="covid.js"></script>
+</html>
