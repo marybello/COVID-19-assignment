@@ -1,4 +1,4 @@
-
+event.preventDefault();
 function validate(){
 var Cold = document.getElementsByName("cold");
 var Cattarh = document.getElementsByName("cattarh");
