@@ -1,4 +1,9 @@
-
+@media only screen and (max-width:400px){
+    .labels{
+        position: relative;
+        left: 50px;
+    }
+}
 label{
     display: block;
 }
