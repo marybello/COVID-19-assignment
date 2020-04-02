@@ -34,8 +34,13 @@ if(Cold[0].checked && Cattarh[0].checked && Cough[0].checked && Throat[0].checke
                     alert ("Please stay isolated for 14days as you may be infected and be assyptomatic. Take a test after 14 days if there are no symptoms to be sure. otherwise, contact the NCDC immediately! ")
 
             }
+            else if(Cold[0].checked && Cattarh[0].checked && Cough[0].checked && Throat[1].checked && Fever[0].checked
+                && Ache[0].checked && Fatigue[1].checked && Breathing[1].checked && Infected[1].checked
+                && Travel[1].checked && Contact[1].checked){
+                alert ("Please dont panic, your risk of having COVID-19 is low, you most likely have a common flu. please see a doctor to be sure!")
+            }
             else {
-                alert("you are at low risk of having been infected with COVID-19, please observe all the necessary precautions and take this test when you notice new symptoms ");
+                alert("you are at low risk of having been infected with COVID-19, please observe all the necessary precautions and re-take this test when you notice new symptoms ");
             }
         
     
